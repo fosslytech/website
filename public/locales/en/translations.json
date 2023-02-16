@@ -1,0 +1,72 @@
+{
+  "_comment": "Don't forget to update ITranslations at /src/types/content.types.ts",
+  "header": {
+    "appName": "Fossly Tech",
+    "selectLangOptions": {
+      "en": "EN",
+      "fr": "FR",
+      "de": "DE"
+    }
+  },
+  "footer": {
+    "appName": "ODF Collab",
+    "description": "Collaborate with others on OpenDocument Format files",
+    "links": [
+      {
+        "title": "About",
+        "links": ["Home", "Settings", "Privacy"]
+      },
+      {
+        "title": "Project",
+        "links": ["Contribute", "Changelog", "Documentation"]
+      },
+      {
+        "title": "Community",
+        "links": ["Join Discord", "GitHub Discussion"]
+      }
+    ]
+  },
+  "navbar": {
+    "links": ["Home", "Wiki", "Settings", "Download"]
+  },
+  "pages": {
+    "home": {
+      "hero": {
+        "title1": "A",
+        "title2": "modern",
+        "title3": "FOSS",
+        "title4": "collaboration tool",
+        "description": "Work together in real-time to create, edit, and share documents. The goal of the website is to provide a seamless and efficient way for teams and individuals to collaborate on documents, no matter where they are located.",
+        "githubBtn": "Projects",
+        "discordBtn": "Community"
+      },
+
+      "projects": {
+        "title": "Your Go-To Destination for FOSS Document Collaboration",
+        "description": "Whether you're working on a team project or a personal document, our platform makes document collaboration effortless and efficient.",
+        "cards": [
+          {
+            "title": "Open standard",
+            "description": "By supporitng only open standard document formats ( ODF, HTML, PDF... ) we ensure that files from our app can be used with any other app that supports said standards"
+          },
+          {
+            "title": "Free & Open source",
+            "description": "ODF Collab is and will always be 'Free as in Freedom', this allows you to always view the source code and, if you feel like you have the necessary skills, contribute to the project"
+          },
+          {
+            "title": "Community driven",
+            "description": "We listen to all community feedback and are always open to suggestions, you can help in many ways like reporting bugs, joining discussions, working on code, etc..."
+          }
+        ]
+      }
+    },
+    "error": {
+      "title": "You have found a secret place",
+      "404": "Unfortunately, this is only a 404 page. You may have mistyped the address, or the page has been moved to another URL.",
+      "401": "Unfortunately, this is only a 401 page. You most likely do not have access to this page.",
+      "500": "Unfortunately, this is only a 500 page. An error has most likely occurred on our end.",
+      "button": "Take me back to home page"
+    }
+  },
+  "components": {}
+}
