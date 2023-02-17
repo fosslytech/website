@@ -54,7 +54,7 @@ const AppFooter: React.FC<AppFooterProps> = ({ data }) => {
       <Container size="lg" className={classes.inner}>
         <div className={classes.logo}>
           <Flex align="center" mb="md">
-            <Logo width={22} fill={theme.colors[theme.primaryColor][6]} />
+            <Logo width={22} />
 
             <Text ml={12} fw={600} size={16}>
               ODF Collab
