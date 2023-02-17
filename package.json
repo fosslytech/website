@@ -20,7 +20,7 @@
     "@mantine/next": "^5.10.3",
     "@mantine/notifications": "^5.10.3",
     "@mantine/nprogress": "^5.10.3",
-    "@tabler/icons-react-react": "^2.4.0",
+    "@tabler/icons-react": "^2.4.0",
     "eslint": "8.34.0",
     "eslint-config-next": "13.1.6",
     "mantine-flagpack": "^1.0.1",
