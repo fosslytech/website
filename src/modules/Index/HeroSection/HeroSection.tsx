@@ -5,6 +5,7 @@ import useStyles from './HeroSection.styles';
 import useGlobalCtx from 'src/store/global/use-global-ctx';
 
 import { IconBrandGithub, IconBrandDiscord } from '@tabler/icons-react';
+import CatVector from '@icons/CatVector';
 
 const HeroSection = () => {
   const { translate, content } = useGlobalCtx();
@@ -54,7 +55,9 @@ const HeroSection = () => {
             </Group>
           </div>
 
-          <div className={classes.image}></div>
+          <div className={classes.image}>
+            <CatVector size={250} />
+          </div>
         </div>
       </Container>
     </div>

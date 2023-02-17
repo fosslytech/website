@@ -30,12 +30,14 @@ export interface ITranslations {
         discordBtn: string;
       };
 
-      cards: {
+      products: {
         title: string;
         description: string;
         cards: {
           title: string;
           description: string;
+          codeBtn: string;
+          appBtn: string;
         }[];
       };
     };

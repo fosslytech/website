@@ -9,8 +9,8 @@
     }
   },
   "footer": {
-    "appName": "ODF Collab",
-    "description": "Collaborate with others on OpenDocument Format files",
+    "appName": "Fossly Tech",
+    "description": "The future is open source",
     "links": [
       {
         "title": "About",
@@ -32,30 +32,30 @@
   "pages": {
     "home": {
       "hero": {
-        "title1": "A",
-        "title2": "modern",
-        "title3": "FOSS",
-        "title4": "collaboration tool",
-        "description": "Work together in real-time to create, edit, and share documents. The goal of the website is to provide a seamless and efficient way for teams and individuals to collaborate on documents, no matter where they are located.",
+        "title1": "The",
+        "title2": "future",
+        "title3": "is",
+        "title4": "open source",
+        "description": "We believe that software should be free, accessible, and collaborative, so we provide a range of high-quality, user-friendly, and customizable FOSS tools",
         "githubBtn": "Projects",
         "discordBtn": "Community"
       },
 
-      "projects": {
-        "title": "Your Go-To Destination for FOSS Document Collaboration",
-        "description": "Whether you're working on a team project or a personal document, our platform makes document collaboration effortless and efficient.",
+      "products": {
+        "title": "Office apps",
+        "description": "Products meant to increase your productivity",
         "cards": [
           {
-            "title": "Open standard",
-            "description": "By supporitng only open standard document formats ( ODF, HTML, PDF... ) we ensure that files from our app can be used with any other app that supports said standards"
+            "title": "ODF Collab",
+            "description": "FOSS document collaboration tool",
+            "codeBtn": "Code",
+            "appBtn": "Open"
           },
           {
-            "title": "Free & Open source",
-            "description": "ODF Collab is and will always be 'Free as in Freedom', this allows you to always view the source code and, if you feel like you have the necessary skills, contribute to the project"
-          },
-          {
-            "title": "Community driven",
-            "description": "We listen to all community feedback and are always open to suggestions, you can help in many ways like reporting bugs, joining discussions, working on code, etc..."
+            "title": "Libre Meet",
+            "description": "FOSS real-time meeting app",
+            "codeBtn": "Code",
+            "appBtn": "Open"
           }
         ]
       }

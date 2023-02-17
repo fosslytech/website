@@ -26,7 +26,7 @@ const App = ({ Component, pageProps }) => {
             {getLayout(<Component {...pageProps} />)}
           </NotificationsProvider>
         </MantineProvider>
-      </ColorSchemeProvider>{' '}
+      </ColorSchemeProvider>
     </JoinedCTXProvider>
   );
 };

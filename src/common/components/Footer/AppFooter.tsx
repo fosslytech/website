@@ -1,5 +1,6 @@
 import Logo from '@icons/Logo';
-import { Text, Container, Group, Flex } from '@mantine/core';
+import { Text, Container, Group, Flex, ActionIcon } from '@mantine/core';
+import { IconBrandDiscord, IconBrandGithub, IconBrandTwitter, IconBrandYoutube } from '@tabler/icons-react';
 import Link from 'next/link';
 import useGlobalCtx from 'src/store/global/use-global-ctx';
 import useStyles from './AppFooter.styles';
@@ -54,15 +55,15 @@ const AppFooter: React.FC<AppFooterProps> = ({ data }) => {
       <Container size="lg" className={classes.inner}>
         <div className={classes.logo}>
           <Flex align="center" mb="md">
-            <Logo width={22} />
+            <Logo width={32} />
 
-            <Text ml={12} fw={600} size={16}>
-              ODF Collab
+            <Text ml={12} fw={600} size={20}>
+              Fossly Tech
             </Text>
           </Flex>
 
-          <Text size="xs" color="dimmed" className={classes.description}>
-            Build fully functional accessible web applications faster than ever
+          <Text size="sm" color="dimmed" className={classes.description}>
+            The future is open source
           </Text>
         </div>
         <div className={classes.groups}>{groups}</div>
@@ -74,16 +75,15 @@ const AppFooter: React.FC<AppFooterProps> = ({ data }) => {
         </Text>
 
         <Group spacing={0} className={classes.social} position="right" noWrap>
-          {/* <ActionIcon size="lg">
-            <IconBrandTwitter size={18} stroke={1.5} />
+          <ActionIcon size="lg" variant="light" ml="md">
+            <IconBrandGithub size={20} stroke={1.5} />
           </ActionIcon>
-          <ActionIcon size="lg">
-            <IconBrandYoutube size={18} stroke={1.5} />
+          <ActionIcon size="lg" variant="light" ml="md">
+            <IconBrandYoutube size={20} stroke={1.5} />
           </ActionIcon>
-          <ActionIcon size="lg">
-            <IconBrandInstagram size={18} stroke={1.5} />
-          </ActionIcon> */}
-          Socials
+          <ActionIcon size="lg" variant="light" ml="md">
+            <IconBrandDiscord size={20} stroke={1.5} />
+          </ActionIcon>
         </Group>
       </Container>
     </footer>

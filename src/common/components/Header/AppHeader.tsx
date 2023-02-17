@@ -39,7 +39,7 @@ const AppHeader: React.FC<Props> = ({ opened, setOpened }) => {
   return (
     <Header height={{ base: 60, md: 70 }} p="md" px="xl">
       <div style={{ display: 'flex', alignItems: 'center', height: '100%' }}>
-        <MediaQuery largerThan="xs" styles={{ display: 'none' }}>
+        {/* <MediaQuery largerThan="xs" styles={{ display: 'none' }}>
           <Burger
             opened={opened}
             onClick={() => setOpened(!opened)}
@@ -47,7 +47,7 @@ const AppHeader: React.FC<Props> = ({ opened, setOpened }) => {
             color={theme.colors.gray[6]}
             mr="xl"
           />
-        </MediaQuery>
+        </MediaQuery> */}
 
         <Flex align="center" onClick={() => router.push('/')} style={{ cursor: 'pointer' }}>
           <Logo width={38} />
