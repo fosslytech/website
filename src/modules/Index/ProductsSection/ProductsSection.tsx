@@ -27,13 +27,13 @@ const ProductsSection = () => {
       </Text>
 
       <Flex justify="end" mt="lg" gap="md">
-        <Link href={feature.codeUrl}>
+        <Link href={feature.codeUrl} target="_blank">
           <Button variant="default" leftIcon={<IconBrandGithub size={18} />}>
             Code
           </Button>
         </Link>
 
-        <Link href={feature.appUrl}>
+        <Link href={feature.appUrl} target="_blank">
           <Button leftIcon={<IconLink size={18} />} color={feature.color}>
             Open
           </Button>
